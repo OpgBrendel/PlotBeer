@@ -10,6 +10,7 @@ body {
 	background-color: #83af71;
 }
 
+
 /* Changing the background colour for the header */
 
 header {
@@ -20,10 +21,17 @@ header {
 
 .navbar {
 	background-color: #83af71;
-}
+font-size: 25px; }
 
 /* Effect on social media buttons */
 
 footer a:hover {
 	opacity: .5;
+}
+
+.learnmore{
+	background-color: #83af71; 
+}
+
+.Headertext {
 }
