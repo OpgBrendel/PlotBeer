@@ -2,12 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
 
-
 /* Changing the main font and background colour */
 
 body {
 	font-family: 'Fira Sans';
-	background-color: #83af71;
+	background-color: #DACABE;
 }
 
 
@@ -20,8 +19,21 @@ header {
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #83af71;
-font-size: 25px; }
+	background-color: #DACABE;
+	font-size: 25px; 
+}
+
+.navtext {
+	color: :#DACABE;
+}
+
+.horizontal_card {
+	width: auto;
+	height: 70;
+}
+
+
+}
 
 /* Effect on social media buttons */
 
@@ -33,5 +45,3 @@ footer a:hover {
 	background-color: #83af71; 
 }
 
-.Headertext {
-}
