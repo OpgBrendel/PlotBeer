@@ -6,7 +6,7 @@
 
 body {
 	font-family: 'Fira Sans';
-	background-color: #DACABE;
+	background-color: #050A3F;
 }
 
 
@@ -19,21 +19,58 @@ header {
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #DACABE;
-	font-size: 25px; 
+	background-color:#EFEAE4;
+	color: aliceblue;
+	font-size: 20px;
+	font-family: objektiv-mk1,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	
 }
 
 .navtext_style {
 	color: #050A3F;
 }
 
+/* First page formats  */
+
+.text_carousel {
+	font-family: objektiv-mk1,sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 30px;
+}
+
+.body_text_style {
+	color: #524D70;
+	font-family: objektiv-mk1,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.headline_text_style {
+	font-family: objektiv-mk1,sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 20px;
+}
+
+.contact_form_bold {
+	font-family: objektiv-mk1,sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 20px;
+	color: #050A3F;
+	
 .horizontal_card {
 	width: auto;
 	height: 70;
 }
 
-
+.button {
+	background-color: burlywood;
 }
+
 
 /* Effect on social media buttons */
 

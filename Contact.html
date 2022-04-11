@@ -9,6 +9,8 @@
 
     <!-- Own Styles -->
     <link rel="stylesheet" href="css/styles.css">
+	 <link rel="stylesheet" href="https://use.typekit.net/orb5baj.css">
+	 <link rel="stylesheet" href="https://use.typekit.net/orb5baj.css">
 
     <!-- Bootstrap Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
@@ -18,10 +20,10 @@
   <body>
 
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
-   <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="images/Plot logo green-07.png" width="130" alt="Breda University of Applied Sciences">
+   <nav class="navbar navbar-expand-lg navbar-light navbar_text navbar sticky-top ">
+      <div class="container-fluid navtext_style">
+        <a class="navbar-brand " href="index.html">
+          <img src="images/PLOT_LOGO.png" width="70" alt="Plot_logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -29,12 +31,15 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item dropdown">
-              <a  class="nav-link dropdown-toggle"  href="Our Products.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a  class=" dropdown-toggle  nav-link text-end"  href="Our Products.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Our products
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+				   <li><a class="dropdown-item" href="#">All products </a></li>
+                <li><a class="dropdown-item" href="#">Blue Beer</a></li>
+                <li><a class="dropdown-item" href="#">Yellow Beer</a></li>
+				   <li><a class="dropdown-item" href="#">Red Beer</a></li>
+			    <li><a class="dropdown-item" href="#">Green Beer</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
@@ -64,18 +69,81 @@
       </div>
     </nav>
     <!-- End of navigation bar -->
+	  
+	  
+	  
+	  
 
-    <header class="py-2 py-md-4 py-lg-5 text-center container-fluid bg-gradient text-light">
-      <h1 class="fw-light">Contact information</h1>
-    </header>
+	  <!-- CONTACT FORM: Wrapper container -->
 
-    <main class="container py-4">
-      <h4 class="mt-4">Mail: info.plot@gmail.com&nbsp;</h4>
-      
-      
-      <h4 class="mt-4">Adress: St.Ignasiusstraat 1&nbsp;&nbsp;</h4>
-    
-      <h4 class="mt-4">Tel: +31636576511</h4>
+	<!-- END CONTACT FORM -->  
+	  
+  <div class="container-fluid rounded bg-light">
+    <div class="row px-5">
+        <div class="col-sm-6">
+            <div>
+                <h3 class="text-white">&nbsp;</h3>
+                <h3 class="contact_form_bold">Want to share something with us?</h3>
+<p class="text-secondary body_text_style">Fill up the form and our Team will get back to you within in 24 hours</p>
+          </div>
+            <div class="links" id="bordering"> <a href="#" class="btn rounded p-3 contact_form_bold"><i class="fa fa-phone icon text-primary pr-3"></i>+31611114444</a> <a href="#" class="btn rounded p-3 contact_form_bold">info.plotbeer@gmail.com<i class="fa fa-envelope icon text-primary pr-3"></i></a> <a href="#" class="btn rounded p-3 contact_form_bold">Mgr. Hopmansstraat 2, Breda<i class="fa fa-map-marker icon text-primary pr-3"></i></a> </div>
+            <div class="pt-lg-4 d-flex flex-row justify-content-start body_text_style">
+				<div class="col-lg- col-md-10 mb-10 mb-md-10">
+          <h5 class="text-uppercase body_text_style contact_form_bold">&nbsp; &nbsp; FolloW US on sociAL media</h5>
+
+         
+					<ul class="list-unstyled d-flex align-items-center opacity-75">
+      <li>
+            <a href="https://www.tiktok.com/@plot.eu" target="_blank">
+              <img class="m-2" src="images/tik-tok.png" alt="Follow us on" width="26">
+            </a>
+          </li>
+   
+          <li>
+            <a href="https://www.instagram.com/plot.eu/" target="_blank">
+              <img class="m-2" src="images/instagram.svg" alt="Follow us on Instagram" width="26">&nbsp;
+            </a>
+          </li>
+        </ul>
+        </div>
+                <div class="pad-icon"> <a class="fa fa-facebook " href="#"></a> </div>
+                <div class="pad-icon"> <a class="fa fa-twitter " href="#"></a> </div>
+                <div class="pad-icon"> <a class="fa fa-instagram " href="#"></a> </div>
+            </div>
+        </div>
+        <div class="col-sm-6 pad">
+            <form class="rounded msg-form">
+                <div class="form-group"> <label for="name" class="h6 body_text_style"><br>
+                  Your Name</label>
+                    <div class="input-group border rounded">
+                        <div class="input-group-addon px-2 pt-1">
+                            <p class="fa fa-user-o text-primary"></p>
+                      </div> <input type="text" class="form-control border-0">
+                  </div>
+					
+				
+                <div class="form-group"> <label for="name" class="h6 body_text_style">Category</label>
+                    <div class="input-group border rounded">
+                      <div class="input-group-addon px-2 pt-1"> <i class="fa fa-envelope text-primary"></i> </div> <input type="text" class="form-control border-0">
+                    </div>
+                </div>
+				
+              </div>
+                <div class="form-group"> <label for="name" class="h6 body_text_style">Email</label>
+                    <div class="input-group border rounded">
+                      <div class="input-group-addon px-2 pt-1"> <i class="fa fa-envelope text-primary"></i> </div> <input type="text" class="form-control border-0">
+                    </div>
+                </div>
+                <div class="form-group"> <label for="msg" class="h6 body_text_style">Message</label> <textarea name="message" id="msgus" cols="10" rows="5" class="form-control bg-light" placeholder="Message"></textarea> </div>
+                <div class="form-group d-flex justify-content-end"> <input type="submit" class="btn btn-primary text-white" value="send message"> </div>
+            </form>
+        </div>
+    </div>
+</div>
+	  
+	  
+	  
+  <main class="container py-4">
     
       <ul class="list-unstyled d-flex flex-wrap justify-content-center align-items-center">
         <li class="m-2">
@@ -97,30 +165,132 @@
     </main>
 
     <!-- A footer with socials -->
-    <footer class="shadow-lg mt-5 py-4 bg-body">
-      <div class="container d-flex justify-content-between align-items-center">
-        <p> Adress: St. Ignasuisstraat 1&nbsp; &nbsp;<br>
-        </p>
-		   <p> Tel: +31636576511&nbsp;&nbsp;<br>
-        </p>
-	    <p> Mail: info.plot@gmail.com&nbsp;&nbsp; </p>
-        <p>&nbsp;</p>
-		  
-<ul class="list-unstyled d-flex align-items-center opacity-75">
+    <footer class="text-center text-white bg-light">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">     
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2 body_text_style">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label body_text_style" for="form5Example21">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4 body_text_style bg-info">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase body_text_style" s>Address</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+            <a class="body_text_style">Mgr. Hopmansstraat 2</a> </li>
+            
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ">
+          <h5 class="text-uppercase body body_text_style">&nbsp;Phone number</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a class="body_text_style">+31611111444</a>
+            </li>
+         
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase body_text_style">E-mail</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a class="body_text_style">info.plotbeer@gmail.com</a>
+		    </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase body_text_style">Follow us on social media</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="https://www.instagram.com/plot.eu/" class="body_text_style">Instagram</a>
+            </li>
+            <li>
+              <a href="https://www.tiktok.com/@plot.eu" class="body_text_style">TikTok</a>
+		    </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+<ul class="list-unstyled d-flex align-items-center opacity-75" style="align-content: center">
       <li>
             <a href="https://www.tiktok.com/@plot.eu" target="_blank">
               <img class="m-2" src="images/tik-tok.png" alt="Follow us on" width="26">
             </a>
-          </li>
+    </li>
    
           <li>
             <a href="https://www.instagram.com/plot.eu/" target="_blank">
               <img class="m-2" src="images/instagram.svg" alt="Follow us on Instagram" width="26">&nbsp;
             </a>
           </li>
-        </ul>
-      </div>
-    </footer>
+      </ul>
+		
+</footer>
     <!-- End of the grid -->
 
   </body>
