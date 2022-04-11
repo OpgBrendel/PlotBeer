@@ -18,10 +18,10 @@
   <body>
 
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
-    <nav class="navbar navbar-expand-lg navbar-light navbar_text">
-      <div class="container-fluid">
-        <a class="navbar-brand " href="#">
-          <img src="images/Plot logo green-07.png" width="100" alt="Plot_logo">
+    <nav class="navbar navbar-expand-lg navbar-light navbar_text navbar sticky-top ">
+      <div class="container-fluid navtext_style">
+        <a class="navbar-brand " href="index.html">
+          <img src="images/plot_logo-04.png" width="70" alt="Plot_logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -29,12 +29,15 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item dropdown">
-              <a  class="nav-link dropdown-toggle navtext"  href="Our Products.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a  class=" dropdown-toggle  nav-link text-end"  href="Our Products.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Our products
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+				   <li><a class="dropdown-item" href="#">All products </a></li>
+                <li><a class="dropdown-item" href="#">Blue Beer</a></li>
+                <li><a class="dropdown-item" href="#">Yellow Beer</a></li>
+				   <li><a class="dropdown-item" href="#">Red Beer</a></li>
+				   <li><a class="dropdown-item" href="#">Green Beer</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
@@ -114,18 +117,20 @@
     <main class="container py-4">
       <div class="row g-3 justify-content-evenly">
 		  
-		  <div class="card mb-3" style="max-width: 540px;">
+		  <div class="card mb-3" style="max-width: 600px; max-height: 400px">
   <div class="row g-0">
-    <div class="col-md-4"> </div>
+    <div class="col-md-4">
+		<img src="" class="img-fluid rounded-start" alt="...">
+	  </div>
     <div class="col-md-8">
       <div class="card-body">
         <h5 class="card-title">&nbsp;</h5>
         <h5 class="card-title">&nbsp;</h5>
         <h5 class="card-title">&nbsp;</h5>
-        <h5 class="card-title"> Plot Beers </h5>
+        <h5 class="card-title navtext_style"> Plot Beers </h5>
 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.&nbsp;</p>
         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-		  <button type="button" class="btn btn-light">Check out our beers</button>
+		  <button type="button" class="btn btn-dark">Check out our beers</button>
       </div>
     </div>
   </div>
@@ -134,13 +139,13 @@
         <!-- Card #1 -->
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
+            <img class="img-fluid" src="images/glass.of.beer.jpg" alt="Placeholder Image">
             <div class="card-body">
               <h5 class="card-title">Our brand</h5>
-              <p class="card-text">&nbsp;Plot will launch 4 types of beer, tailored to different personalities. But this is not the main focus of our brand - we will offer unique ideas of activities that support people in their journey of going out of their comfort zone. So, while drinking a delicious beer, you can enjoy our social-media content, quizzes and games and find our-of-the-box activities ideas that perfectly fit your personality.</p>
+              <p class="body_text_style">&nbsp;Plot will launch 4 types of beer, tailored to different personalities. But this is not the main focus of our brand - we will offer unique ideas of activities that support people in their journey of going out of their comfort zone. So, while drinking a delicious beer, you can enjoy our social-media content, quizzes and games and find our-of-the-box activities ideas that perfectly fit your personality.</p>
             </div>
             <div class="card-footer p-2 text-end">
-              <a href="corporate.html" class="btn btn-primary ">Learn more</a>
+              <a href="corporate.html" class="btn btn-dark">Learn more</a>
             </div>
           </div>
         </div>
@@ -148,14 +153,14 @@
         <!-- Card #4 -->
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
+            <img class="img-fluid" src="images/dark.beer.jpg" alt="Placeholder Image">
             <div class="card-body">
               <h5 class="card-title">Vision and Mission&nbsp;</h5>
-              <p class="card-text">&nbsp;In a society where individuals fall prey to pre-defined routines and standards, we believe that people should cross their limits by seizing any chance that comes their way, because only then we can grasp life’s endless opportunities.</p>
-              <p class="card-text">Our mission is to&nbsp;is to encourage people to embrace spontaneity and live their life to the fullest. &nbsp;&nbsp;</p>
+              <p class="card-text body_text_style">&nbsp;In a society where individuals fall prey to pre-defined routines and standards, we believe that people should cross their limits by seizing any chance that comes their way, because only then we can grasp life’s endless opportunities.</p>
+              <p class="card-text body_text_style">Our mission is to&nbsp;is to encourage people to embrace spontaneity and live their life to the fullest. &nbsp;&nbsp;</p>
             </div>
             <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
+              <a href="#" class="btn btn-dark">Learn more</a>
             </div>
           </div>
         </div>
