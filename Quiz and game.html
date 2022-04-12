@@ -21,7 +21,7 @@
   <body>
 
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
-     <nav class="navbar navbar-expand-lg navbar-light navbar_text navbar sticky-top ">
+    <nav class="navbar navbar-expand-lg navbar-light navbar_text navbar sticky-top ">
       <div class="container-fluid navtext_style">
         <a class="navbar-brand " href="index.html">
           <img src="images/PLOT_LOGO.png" width="70" alt="Plot_logo">
@@ -32,27 +32,27 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item dropdown">
-              <a  class=" dropdown-toggle  nav-link text-end"  href="Our Products.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a  class=" dropdown-toggle  nav-link text-end"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Our products
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 				   <li><a class="dropdown-item" href="Our Products.html">All products </a></li>
-                <li><a class="dropdown-item" href="Beers.html">Blue Beer</a></li>
-                <li><a class="dropdown-item" href="Beers.html">Yellow Beer</a></li>
-				   <li><a class="dropdown-item" href="Beers.html">Red Beer</a></li>
-				  <li><a class="dropdown-item" href="Beers.html">Green Beer</a></li>
+                <li><a class="dropdown-item" href="beers_blue.html">Blue Beer</a></li>
+                <li><a class="dropdown-item" href="beers-yellow2.html">Yellow Beer</a></li>
+				   <li><a class="dropdown-item" href="beers_red.html">Red Beer</a></li>
+				  <li><a class="dropdown-item" href="beers_green.html">Green Beer</a></li>
      
               </ul>
              </li>
 			  
 			   <li class="nav-item dropdown">
-              <a  class=" dropdown-toggle  nav-link text-end"  href="Our Products.html" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a  class=" dropdown-toggle  nav-link text-end"  href="About us.html" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
              About us
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-				   <li><a class="dropdown-item" href="Our Products.html"> Our Team </a></li>
-                <li><a class="dropdown-item" href="Beers.html">Our Brewery</a></li>
-                <li><a class="dropdown-item" href="Beers.html">Mission and Vision</a></li>
+				   <li><a class="dropdown-item" href="#our.team"> Our Team </a></li>
+                <li><a class="dropdown-item" href="#our.brewery">Our Brewery</a></li>
+                <li><a class="dropdown-item" href="#mission.and.vision">Mission and Vision</a></li>
 				 
      
               </ul>
@@ -80,48 +80,36 @@
    
     <!-- End of carrousel -->
 
-    <!-- A grid with cards
-      Learn about grids at: https://getbootstrap.com/docs/5.1/layout/grid/
-      Learn about cards at: https://getbootstrap.com/docs/5.1/components/card/
+    <!-- Quiz Card
+
     -->
-    <main class="container py-4">
-      <div class="row g-3 justify-content-evenly">
-
-        <!-- Card #1 -->
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
-            <div class="card-body">
-              <h5 class="card-title">The quiz&nbsp;</h5>
-              <p class="card-text">Take our quiz to find out what beer fits your personality best !&nbsp;&nbsp;</p>
-            </div>
-            <div class="card-footer p-2 text-end">
-              <a href="corporate.html" class="btn btn-primary ">Take quiz</a>
-            </div>
-          </div>
-        </div>
-      
-        <!-- Card #4 -->
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
-            <div class="card-body">
-              <h5 class="card-title">The game</h5>
-              <p class="card-text">&nbsp;Press play to play the game !&nbsp; &nbsp; &nbsp;</p>
-              <p class="card-text">&nbsp;              &nbsp;&nbsp;</p>
-            </div>
-            <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Play</a>
-            </div>
-          </div>
-        </div>
-
-
-        <!-- That was the last card -->
-
-      </div>
-    </main>
-    <!-- End of the grid with cards -->
+    <a id="quiz"> 
+	  <div class="card mb-2 card_activities mx-auto" >
+  <img src="images/personality.quiz.png" alt="Card image cap" width="100" class="card-img-top">
+  <div class="card-body card_activities">
+    <h5 class="card-title headline_text_style">Personality Quiz&nbsp;</h5>
+    <p class="card-text body_text_style">Need some help to figure out which one of our 4 Plot beers is perfect for you? No worries, our Plot Quiz is here for you! Take the quiz and join a spontaneous journey perfectly crafted around your personality!&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+	  <a  class="btn btn-dark headline_text_style">Take quiz</a>
+   
+  </div>
+</div>
+		  </a>
+    
+	  <br>
+    <!-- Game Card -->
+	  
+	    <a id="game"> 
+	  <div class="card mb-2 card_activities mx-auto" >
+  <img src="images/game2.jpg" alt="Card image cap" width="601" height="400" class="card-img-top">
+  <div class="card-body card_activities">
+    <h5 class="card-title headline_text_style">Plot Game&nbsp;</h5>
+    <p class="card-text body_text_style">The team behind Plot knows too well that friends groups tend to fall into a boredom trap from time to time. The Plot Game is here to change that! Download the Plot Game PDF file, go to your closest printing shop and add a fun tiwst to your social gathering!&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+	  <a  class="btn btn-dark headline_text_style">Download Game</a>
+   
+  </div>
+</div>
+		  </a>
+	  <br>
 
     <!-- A footer with socials -->
     <footer class="shadow-lg mt-5 py-4 bg-body">
