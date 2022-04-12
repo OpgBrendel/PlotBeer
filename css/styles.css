@@ -71,12 +71,21 @@ header {
 }
 
 /* Contact form */
+
 .contact_form_bold {
 	font-family: objektiv-mk1,sans-serif;
 	font-weight: 800;
 	font-style: normal;
 	font-size: 20px;
 	color: #050A3F;
+}
+	
+/* Activities*/
+	
+	.card_activities {
+		width: 1000px;
+		align-content: center;
+	}
 	
 .horizontal_card {
 	width: auto;
