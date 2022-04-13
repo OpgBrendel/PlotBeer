@@ -26,9 +26,9 @@ header {
 .navbar {
 	background-color:#EFEAE4;
 	color: aliceblue;
-	font-size: 20px;
+	font-size: 21px;
 	font-family: objektiv-mk1,sans-serif;
-	font-weight: 400;
+	font-weight: 500;
 	font-style: normal;
 	
 }
@@ -160,6 +160,30 @@ footer a:hover {
 	align-content: centeractive;
 	background-color: #524D70;	
 	
+}
+
+/* Corporate */
+.big_headers {
+	font-family: objektiv-mk1,sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 30px;
+	
+}
+
+.medium_headers {
+	font-family: objektiv-mk1,sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 20px;
+}
+
+.body_crp {
+	color: #050A3F;
+	font-family: objektiv-mk1,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 17px
 }
 
 #our_team {
