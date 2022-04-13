@@ -9,6 +9,11 @@ body {
 	background-color: #050A3F;
 }
 
+.corporate_body {
+	background-color: whitesmoke;
+}
+
+
 
 /* Changing the background colour for the header */
 
@@ -49,11 +54,55 @@ header {
 	font-style: normal;
 }
 
+.testimonials_text_style {
+	color: #EFEAE4;
+	font-family: objektiv-mk1,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.testimonials_job_style {
+	color: #EFEAE4;
+	font-family: objektiv-mk1,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.testimonials_header_style {
+	font-family: objektiv-mk1,sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 40px;
+	color: #DACABE;
+}
+
+.testimonials_name_style {
+	font-family: objektiv-mk1,sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 30px;
+	color: #DACABE;
+}
+
+
+.buttons_text {
+	color: #DACABE;
+	font-family: objektiv-mk1,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
 .headline_text_style {
 	font-family: objektiv-mk1,sans-serif;
 	font-weight: 800;
 	font-style: normal;
 	font-size: 20px;
+}
+.corporate_headline{
+	font-family: objektiv-mk1,sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	font-size: 40px;
 }
 
 
@@ -114,4 +163,6 @@ footer a:hover {
 }
 
 #our_team {
+}
+.corporate.body {
 }
